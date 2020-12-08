@@ -31,7 +31,6 @@ const createAstonautDiv = ({
     skills,
 }) => {
     const div = document.createElement('div')
-    div.className = 'astronaut'
     div.innerHTML = `<div class="astronaut">
 	<div class="bio">
 	   <h3>${firstName} ${lastName}</h3>
